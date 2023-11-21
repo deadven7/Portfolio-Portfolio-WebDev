@@ -4,6 +4,7 @@ html {
 body {
     font-family: 'Lato', 'Open Sans';
     min-height: 200vh;
+    background-color: #111111 !important;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -69,23 +70,35 @@ body {
     background:transparent;
 }
 .navbar-default.scrolled{
-    background-color: #ffffff;
+    background-color: #111111;
     box-shadow: 5px 0px 20px rgba(0,0,0, .2);
 }
 .navbar li .nav-link, .navbar .navbar-brand {
     font-size: 14px; 
     font-family: 'Krona One'; 
-    color: #000000 !important;
+    color: #fff !important;
 }
 .navbar-nav li .nav-link:hover, .navbar-nav li.active .nav-link {
-    color: #000000;
+    color: #fff;
     font-size: 16px;
     font-weight: 200;
     transition: color 0.2s, font-size 0.2s, font-weight 0.2s;
 }
+.custom-toggler-icon {
+    color: #fff !important;
+}
 .ph-nav {
     display: none;
     margin-left: 50px;
+}
+.portfolio-title {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Fahkwang';
+}
+.portfolio-bartitle {
+    color: #fff;
+    font-size: 20px;
 }
 .title {
     font-size: 40px;
@@ -121,18 +134,90 @@ body {
 .card {
     padding: 8px;
     margin: 10px;
-    box-shadow: 0px 0px 10px 1px rgba(53, 53, 53, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(233, 233, 233, 0.4);
     border-radius: 10px;
     border: transparent;
 }
 .card:hover {
-    box-shadow: 0px 0px 20px 2px rgba(53, 53, 53, 0.4);
+    box-shadow: 0px 0px 20px 10px rgba(233, 233, 233, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.exp {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 140, 0, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.exp:hover {
+    box-shadow: 0px 0px 20px 10px rgba(255, 140, 0, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.prof {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(173, 216, 230, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.prof:hover {
+    box-shadow: 0px 0px 20px 10px rgba(173, 216, 230, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.research {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.research:hover {
+    box-shadow: 0px 0px 20px 10px rgba(0, 255, 0, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.proj {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.proj:hover {
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 255, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.cert {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.cert:hover {
+    box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+.ext {
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 0, 0.5);
+    border-radius: 10px;
+    border: transparent;
+}
+.ext:hover {
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 0, 0.7);
     border-radius: 10px;
     transition: box-shadow 0.2s;
 }
 .hr {
-    background-color: rgba(53, 53, 53, 0.4);
-    color: rgba(53, 53, 53, 0.4);
+    background-color: rgba(233, 233, 233, 0.5);
+    color: rgba(233, 233, 233, 0.5);
     height: 1px;
 }
 .profile {
